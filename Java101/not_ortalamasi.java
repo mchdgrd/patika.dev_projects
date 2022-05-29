@@ -9,8 +9,10 @@ public class not_ortalamasi {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int value, sum=0,count=0;
-        for (int i = 0; i < 5; i++) {
+        int value, sum=0,count=0,notSayisi;
+        System.out.print("Not sayısını giriniz: ");
+        notSayisi = sc.nextInt();
+        for (int i = 0; i < notSayisi; i++) {
             System.out.print((i+1)+". notu girin: ");
             value = sc.nextInt();
             sum+=value;
