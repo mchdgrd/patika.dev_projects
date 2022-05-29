@@ -13,7 +13,7 @@ public class kdv_hesaplama {
         } else {
             KdvBul(tutar, 0.08);
         }
-        
+        sc.close();
     }
 
     public static void KdvBul (double tutar, double kdv){
