@@ -1,5 +1,4 @@
 package Java101;
-
 import java.util.Scanner;
 
 public class kdv_hesaplama {
@@ -14,6 +13,7 @@ public class kdv_hesaplama {
         } else {
             KdvBul(tutar, 0.08);
         }
+        
     }
 
     public static void KdvBul (double tutar, double kdv){
