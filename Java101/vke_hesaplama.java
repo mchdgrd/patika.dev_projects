@@ -22,5 +22,7 @@ public class vke_hesaplama {
         } else {
             System.out.println("Aşırı obezsiniz.");
         }
+
+        sc.close();
     }
 }
