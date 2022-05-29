@@ -18,6 +18,7 @@ public class not_ortalamasi {
         }
         int avg = sum/count;
         System.out.println("Not ortalamanız: "+avg);
+        System.out.println(avg<60 ? "Kaldınız.":"Geçtiniz.");
         sc.close();
     }
 }
